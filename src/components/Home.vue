@@ -14,13 +14,13 @@
 </script>
 
 <template>
-    <v-card id="home" class="h-screen">
+    <v-card id="home">
         <v-img
             aspect-ratio="16/9"
             cover
             src="../assets/abstract-2d-colorful-wallpaper-with-grainy-gradients.jpg"
             >
-            <v-container class="d-flex flex-column h-100  align-center justify-center">
+            <v-container class="d-flex flex-column h-100 align-center justify-center">
                 <v-card-title class="text-white text-md-h2 text-h4 text-wrap text-center">
                     Bem vindo ao meu site
                 </v-card-title>
