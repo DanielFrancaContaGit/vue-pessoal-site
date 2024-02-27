@@ -9,7 +9,7 @@
         url: 'https://www.linkedin.com/in/daniel-silva-franca'
       },
     ]
-  </script>
+</script>
 
 <template>
     <v-row align="center" justify="center" class="ma-0">
@@ -17,7 +17,7 @@
     </v-row>
     <v-footer
       id="footer"
-      class="bg-indigo-lighten-1 text-center d-flex flex-column"
+      class="bg-blue-darken-4 text-center d-flex flex-column"
     >
       <v-row class="my-1">
         <v-card
@@ -25,10 +25,10 @@
           :href="url"
           target="_blank"
           link
-          variant="plain"
+          variant="text"
+          class="mx-4"
         >
             <v-btn
-            class="mx-4"
             :icon="icon"
             variant="text"
             ></v-btn>

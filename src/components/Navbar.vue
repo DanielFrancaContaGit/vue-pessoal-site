@@ -28,7 +28,7 @@
   </v-navigation-drawer>
   <v-app-bar flat :elevation="2">
     <v-app-bar-nav-icon @click="isDrowOpen = !isDrowOpen" ></v-app-bar-nav-icon>
-    <v-app-bar-title >
+    <v-app-bar-title>
       <v-card href="#home">
         Home
       </v-card>  
